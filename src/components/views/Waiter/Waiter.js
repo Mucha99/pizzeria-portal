@@ -1,9 +1,9 @@
 import React from 'react';
-// import styles from './Waiter.module.scss';
+import styles from './Waiter.module.scss';
 
 const Waiter = () => {
   return (
-    <div >
+    <div className={styles.component}>
       <h2>Waiter view</h2>
     </div>
   );
